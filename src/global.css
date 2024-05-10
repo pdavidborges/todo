@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* html{
+    scrollbar-width: 5px;
+    scrollbar-color: red blue;
+} */
+
+body{
+    background-color: #EFEFEF;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-button{    
+    display: none;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #001D29;
+}

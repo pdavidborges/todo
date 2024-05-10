@@ -1,0 +1,16 @@
+.header{
+    height: 200px;
+    background-image: url('../../assets/banner.jpg');
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1{
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'arial black';
+}
+
